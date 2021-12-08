@@ -1,0 +1,143 @@
+body{
+    font-family:"Montserrat";
+}
+#title{
+    background-color: #ff4c6f;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+    
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 2.5;
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: #8f8f8f;
+}
+.row{
+    text-align: center;
+}
+/* Navigation bar */
+.navbar-brand{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrant-Light";
+}
+
+/* download-button */
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+.title-image{
+    width: 50%;
+    transform: rotate(25deg);
+    /* z-index work only when elements are position*/
+    position: absolute;
+    right: 30%;
+}
+/* 
+features section */
+#features{
+    padding: 3% 10%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+.icon{
+    color: #ef817e;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials{
+    padding: 3% 10%;
+    text-align: center;
+    background-color: #ef817e;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 130%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* Press section */
+#press{
+    text-align: center;
+    background-color: #ef817e;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA section */
+#cta{
+    background-color: #ff4c68;
+    color:#fff ;
+    text-align: center;
+    padding: 3% 10%;
+}
+.cta-heading{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer section */
+#footer{
+    padding: 3% 9%;
+    text-align: center;
+}
+.fab{
+   margin: 10px 20px;
+}
+
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
